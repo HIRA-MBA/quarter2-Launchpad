@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        
+        
+        .navbar{border: 1px solid rgb(29, 28, 28);
+            background-color:rgb(245, 224, 227) ;
+            height: 80px;padding: 10px;}
+   .logo{padding-left: 5%;}
+ .links{text-align: center;padding-top: 25px;}
+
+#about{padding-left: 5px;}
+#portfolio{padding-left: 5px;}
+#contact{padding-left: 5px;}
+#footer{text-align: center;background-color: aqua;}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img  src="./images/Logo.jpg" id="logo" alt="logo" height="80px" width="80px" align="left" >
+        
+           <div class="links">
+          <a href="index.html">Home</a>      
+       
+        <a href="portfolio.html" id="portfolio">Portfolio</a>
+        <a href="contact.html" id="contact">Contact </a>
+        
+        
+            </div>
+        
+            </div>
+    <form>
+        <fieldset>
+<legend style="font-weight: bold; text-decoration: underline;">Your details</legend>
+<label for="name">Name</label>
+<input type="text" placeholder="Enter your name">
+<br/>
+<br/>
+<label for="email">Email</label>
+<input type="email" placeholder="valid email address">
+</fieldset>
+<br/>
+<br/>
+<fieldset>
+<legend style="font-weight: bold;text-decoration: underline;">Your Reviews</legend>
+<p>How did you know about us</p>
+<select>
+<option>Google</option>
+<option>Social Media</option>
+<option>Friend</option>
+<option>Main Stream Media</option>
+
+
+</select>
+<p>Would you like to visit us again</p>
+<input type="radio" id="yes" name="visit" value="yes">
+<label for="yes" >Yes</label>
+<input type="radio" id="no" name="visit" value="no">
+<label for="no" >No</label> 
+<input type="radio"  id="maybe" value="may be" name="visit">
+<label for="Maybe">May be</label>
+
+<p>Comments</p>
+<textarea cols="40" row="2" placeholder="Enter your suggestions."></textarea>
+
+</fieldset>
+<p>Sign me up for email updates
+    <input type="checkbox" checked>
+</p>
+<button type="submit" >submit reviews</button>
+    </form>
+    <div  id="footer">
+        <p>Copyright Reserved</p>
+        
+        </div>
+</body>
+</html>

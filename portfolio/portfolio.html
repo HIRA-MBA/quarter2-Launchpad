@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        .navbar{border: 1px solid rgb(22, 22, 22);
+            background-color: rgb(247, 220, 224);
+            height: 80px;padding: 10px;}
+   .logo{padding-left: 5%;}
+ .links{text-align: center;padding-top: 25px;}
+
+#about{padding-left: 5px;}
+#portfolio{padding-left: 5px;}
+#contact{padding-left: 5px;}
+#footer{text-align: center;background-color: aqua;}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if screen is small */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards */
+}
+
+.card {
+    width: 200px; /* Set a fixed width for each card */
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+</head>
+<body><div class="navbar">
+    <img  src="./images/Logo.jpg" id="logo" alt="logo" height="80px" width="80px" align="left" >
+    
+       <div class="links">
+      <a href="index.html">Home</a>     
+   
+    <a href="portfolio.html" id="portfolio">Portfolio</a>
+    <a href="contact.html" id="contact">Contact </a>
+    
+    
+        </div>      
+
+    
+        </div>
+        <div class="portfolio">
+            <h2 style="text-align:center">Product Cards</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./images/clips.jpg" alt="Butterfly Clip" style="width:100%">
+                    <h1>Butterfly hair clip</h1>
+                    <p class="price">Rs. 100</p>
+                    <p>Butterfly hair clips in different colors</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="card">
+                    <img src="./images/doll-bands.jpg" alt="Doll Bands" style="width:100%">
+                    <h1>Hair bands</h1>
+                    <p class="price">Rs. 50</p>
+                    <p>Hair bands for girls.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="card">
+                    <img src="./images/stoneset.jpg" alt="necklace" style="width:100%">
+                    <h1>Jewelry</h1>
+                    <p class="price">Rs. 1500</p>
+                    <p>Stone studded necklace for girls.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="card">
+                    <img src="./images/jewelry.jpg" alt="jewelry" style="width:100%">
+                    <h1>Jewelry</h1>
+                    <p class="price">Rs. 3000</p>
+                    <p>Jewelry set for brides.</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="card">
+                    <img src="./images/wristlet.jpg" alt="wristlet" style="width:100%">
+                    <h1>Wristlet</h1>
+                    <p class="price">Rs. 200</p>
+                    <p>A wristlet makes the perfect gift—stylish, versatile, and effortlessly chic, it's a thoughtful accessory for any occasion!</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                
+                <div class="card">
+                    <img src="./images/nailpaints.jpg" alt="nailpaints" style="width:100%">
+                    <h1>Nailpaints</h1>
+                    <p class="price">Rs. 100 each</p>
+                    <p>Add a pop of color and personality to your look with our vibrant nail paints, perfect for every mood and occasion!</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+        <div  id="footer">
+            <p>Copyright Reserved</p>
+            
+            </div>
+</body>
+        
+</html>
